@@ -1,0 +1,13 @@
+{
+    "git.confirmSync": false,
+    "window.zoomLevel": 0,
+    // "git.enableSmartCommit": true,
+    // "git.confirmSync": false,
+    // "files.autoSave": "afterDelay"
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "javascript": "javascriptreact",
+    "workbench.startupEditor": "welcomePage",
+    "terminal.integrated.rendererType": "dom",
+    "editor.tabSize": 2
+}

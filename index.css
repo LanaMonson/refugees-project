@@ -1,0 +1,91 @@
+@import url('<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">');
+body{
+    font-family: lato;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+nav ul{
+    width: 100%;
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+}
+.section-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('images/home-slide.png');
+}
+.section-hero div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.section-hero div button{
+    background-color: greenyellow;
+    margin-right: 40px;
+    border-radius: 8px;
+    height: 100px;
+    width: 300px;
+    color: white;
+    font-size: 48px;
+}
+
+/* main:not(:first-child){
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-start;
+} */
+
+.card-image{
+    width: 320px;
+    height: 335px;
+    padding: 16px 0;
+    background-image: url('images/card.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.card-section{
+    margin-top: 80px;
+}
+
+.card{
+    border-radius: 8px;
+    width: 320px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
+}
+.card-type-box{
+    margin: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #27708f;
+    padding: 8px 32px;
+    max-width: 100px;
+
+}
+.card-content{
+    padding: 16px;
+}
