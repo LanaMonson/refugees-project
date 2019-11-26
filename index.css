@@ -10,11 +10,11 @@ main{
 
 }
 nav ul{
+    height: 40px;
     width: 100%;
-list-style: none;
-display: flex;
-justify-content: space-between;
-align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container{
@@ -35,10 +35,11 @@ align-items: center;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: -45px;
 
 }
 .section-hero div button{
-    background-color: greenyellow;
+    background-color: #7ed321;
     margin-right: 40px;
     border-radius: 8px;
     height: 100px;
@@ -65,9 +66,10 @@ align-items: center;
     align-items: flex-end;
     
 }
-
+/*  */
 .card-section{
     margin-top: 80px;
+    
 }
 
 .card{
@@ -76,7 +78,7 @@ align-items: center;
     box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
 }
 .card-type-box{
-    margin: 16px;
+    margin: 16px 8px;
     border-radius: 8px;
     display: flex;
     justify-content: center;
